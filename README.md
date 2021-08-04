@@ -25,7 +25,8 @@ subj_merged_eda_temp_w.pkl</br>
 merged_chest_fltr.pkl</br>
   - Uses ae_feature_extractor.py to build and train autoencoder model and extract features. </br>
   - Save extracted features leaving one subject out into pickle files in features/train and features/test directories. The number in the filename indicates which subject was left out in each fold.</br></br>
-3. SVM_classifier.ipynb - Build SVM classifier that uses latent features extracted by autoencoder for three class classification of WESAD dataset: neutral, stress, and ammusement. Results analysis also included.
+3. SVM_classifier.ipynb - Build SVM classifier that uses latent features extracted by autoencoder for three class classification of WESAD dataset: neutral, stress, and ammusement. Results analysis also included.</br></br>
+4. MLP_classifier.ipynb - Build MLP (Multi Layer Perceptron) classifier that uses latent features extracted by autoencoder for three class classification of WESAD dataset: neutral, stress, and ammusement. Results analysis also included.
 
 
 
